@@ -1,0 +1,379 @@
+body{
+    margin: 0px;
+    width: 100%;
+}
+
+header{
+    background-image: url(../img/bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 42px;
+    padding-bottom: 71px;
+}
+
+.header_logo{
+    width: 102px;
+    margin: 0px auto;
+}
+
+main{
+    background-color: white;
+}
+
+.header_main{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 5.70937px;
+    margin: 319px auto 0px auto;
+    width: 620px;
+}
+
+.under_text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    width: 350px;
+    margin: 20px auto;
+}
+
+.header_down{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    color: white;
+    letter-spacing: 3.7px;
+    margin: 221px auto 71px auto;
+    width: 130px;
+}
+
+nav{
+    display: flex;
+    border: 1px solid #E6E6E6;
+    padding: 25px 250px;
+}
+
+.home{
+    margin-left: 30vw;
+}
+
+nav a{
+    text-decoration: none;
+    color: #48555B;
+    margin-left: 3.3%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1.09091px;
+}
+
+.about{
+    color: #00A4E5;
+}
+
+.page_title{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2.30625px;
+    color: #48555B;
+    margin: 57px auto 10px auto;
+    width: 127px;
+}
+
+.title_line{
+    width: 50px;
+    height: 0px;
+    border: 1px solid #00A4E5;
+    margin: 0px auto;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    margin-left: 249px;
+    margin-top: 80px;
+}
+
+.left_content{
+    display: flex;
+    flex-direction: column;
+    width: 406px;
+}
+
+
+.left_content div{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.1875px;
+    line-height: 27px;
+    color: #48555B;
+}
+
+.left_content span{
+    margin-top: 30px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.1875px;
+    line-height: 23px;
+    color: #48555B;
+}
+
+.left_content div span{
+    color: #00A4E5;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.1875px;
+}
+
+.right_content{
+    margin-left: 85px;
+    display: flex;
+    flex-direction: row;
+}
+
+.right_content p{
+    position: relative;
+    top: -210px;
+    right: -10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1875px;
+    color: #FFFFFF;
+}
+
+.right_content img{
+    position: relative;
+    top: 25px;
+}
+
+.right_content div{
+    margin-right: 20px;
+}
+
+#second_content{
+    margin-left: 250px;
+    margin-bottom: 115px;
+}
+
+#second_content header{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    background-image: none;
+}
+
+#second_content .title_line{
+    margin-left: 0px;
+}
+
+.second_header_text{
+    margin-left: 155px;
+    margin-right: 32px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #48555B;
+}
+
+.blue_button a{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.91vw;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 65.3%;
+}
+
+.blue_button{
+    padding: 11px 29px;
+    background-color: #00A4E5;
+    height: 18px;
+    text-align: center;
+}
+
+.blocks{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    padding: 38px 22px 39px 23px;
+    width: 20.515vw;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    margin-right: 28px;
+}
+
+.card_header{
+    width: 17.39vw;
+    height: 72px;
+    margin-top: 25px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.426667px;
+    color: #48555B;
+    align-items: center;
+}
+
+.card_content{
+    margin-top: 13px;
+    margin-bottom: 0;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: #48555B;
+}
+
+#contact_page{
+    background-image: url(../img/bgcity.png);
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 231px;
+}
+
+.contact_header{
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    color: #48555B;
+    width: 24.34vw;
+    margin: 0px auto;
+}
+
+.signup{
+    background-color: #171819;
+    display: flex;
+}
+
+.signup p{
+    margin-top: 35px;
+    margin-left: 26.29vw;
+    margin-right: 70px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: #FFFFFF;
+    letter-spacing: 0.846154px;
+}
+
+.sign_panel{
+    margin-top: 30px;
+    margin-right: 0;
+}
+
+.sign_panel input{
+    width: 16vw;
+    max-width: 250px;
+    padding: 11px 0px 10px 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.sign_panel div{
+    display: inline-block;
+    position: relative;
+    left: -5px;
+}
+
+#top_footer{
+    background: #141A20;
+    padding-top: 41px;
+    padding-left: 17.3vw;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 19px;
+    font-size: 11px;
+}
+
+.footer_content{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-right: 35px;
+}
+
+.column > *{
+    margin-bottom: 20px;
+}
+
+.column a{
+    text-decoration: none;
+    color: white;
+}
+
+.column img{
+     width: 7.1vw;
+}
+
+.link{
+    margin-bottom: 9px;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+}
+
+.line img{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+#bottom_footer{
+    background-color: #171819;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.76vw;
+    line-height: 15px;
+    color: #FFFFFF;
+    letter-spacing: 0.846154px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+#bottom_footer p{
+    width: 21.42vw;
+    margin: 0px auto;
+}
+
+
