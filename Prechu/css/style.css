@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    font-family: 'Segoe WP';
+}
+
+header .container{
+    margin-left: 9.12vw;
+    margin-top: 22px;
+}
+
+header nav{
+    display: flex;
+    background-color: white;
+    max-height: 65px;
+}
+
+header .quotes{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    position: relative;
+    top: -3px;
+    right: 36px;
+    font-size: 64px;
+}
+
+header .logo{
+    display: flex;
+    margin-left: 26px;
+}
+
+header .logo img{
+    max-height: 48px;
+    max-width: 48px;
+}
+
+header .logo .text{
+    font-size: 43px;
+    color: black;
+    margin-left: -14px;
+}
+
+header nav .pages{
+    display: flex;
+    justify-content: space-between;
+    width: 32vw;
+    margin-left: 32vw;
+    margin-top: 25px;
+    max-height: 40px;
+}
+
+header nav .pages a{
+    color: #666666;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 3px solid white;
+    max-height: 40px;
+}
+
+header nav .pages a:hover{
+    border-bottom: 4px solid #2f85ed;
+    max-height: 40px;
+}
+
+header .content{
+    background-image: url(../img/bg.png);
+    background-size: cover;
+}
+
+header .content .container{
+    margin-left: 7.2vw;
+    margin-top: 0;
+    display: flex;
+}
+
+header .arrow{
+    max-height: 68px;
+    margin-top: 230px;
+}
+
+header .content .info{
+    margin: 155px 0 0 8vw;
+    color: white;
+}
+
+header .content .info .text{
+    line-height: 45px;
+    font-size: 25px;
+}
+
+header .content .info .text h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin: 0;
+}
+
+header .content .info .button{
+    background-color: #2f85ed;
+    max-width: 153px;
+    height: 20px;
+    padding: 11px;
+    margin: 27px 0 0 18px;
+}
+
+header .content .button a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+header .content .button .sign_text{
+    margin: -30px 0 0 32px;
+}
+
+header .content .button img{
+    margin-top: -2px;
+}
+
+header .content .iphone{
+    margin: 40px 0 0 60px;
+}
+
+header .content .right_arrow{
+    position: absolute;
+    top: 90px;
+    right: 95px;
+}
+
+header .after{
+    position: relative;
+    top: -10px;
+    max-height: 70px;
+}
+
+header .after img{
+    height: 70px;
+    width: 100vw;
+}
+
+
+main .cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 12.5vw;
+}
+
+main .cards .card{
+    text-align: center;
+}
+
+main .cards img{
+    height: 110px;
+}
+
+main .cards .blue{
+    background-color: #2f85ed;
+}
+
+main .cards .card__container{
+    width: 190px;
+    padding: 38px 0px;
+    border-radius: 100px;
+    margin: 0px auto;
+}
+
+main .cards .card h3{
+    font-size: 20px;
+    color: #5094f2;
+}
+
+main .cards .card p{
+    font-size: 14px;
+    color: #909090;
+}
+
+main .cards .pink{
+    background-color: #d94748;
+    padding: 50px 0px;
+}
+
+main .cards .pink img{
+    width: 100px;
+    height: 85px;
+}
+
+main .cards .yellow{
+    background-color: #ebbb11;
+    padding: 45px 0px;
+}
+
+main .cards .yellow img{
+    height: 92px;
+    width: 102px;
+}
+
+main .products{
+    margin: 60px 13.6vw 0 13.6vw;
+}
+
+main .product__name{
+    font-size: 42px;
+    color: #6f7173;
+}
+
+main .product__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .product__content img{
+    margin-top: 40px;
+    margin-left: -10px;
+}
+
+main .product__content .text{
+    width: 36.4vw;
+    margin-top: -10px;
+    color: #6f7173;
+}
+
+main .product__content .text h3{
+    font-size: 26px;
+}
+
+main .product__content .text p{
+    font-size: 15px;
+    line-height: 35px;
+}
+
+footer{
+    padding: 35px 0;
+    margin-top: 30px;
+    color: #909090;
+    font-size: 15px;
+    border-top: 1px solid #909090;
+}
+
+footer .container{
+    display: block;
+    width: 256px;
+    margin: 0px auto;
+}
+
+@font-face {
+    font-family: "Segoe-WP";
+    src: url("../fonts/Segoe WP.ttf");
+}
