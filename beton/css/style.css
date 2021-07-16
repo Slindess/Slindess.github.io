@@ -1,0 +1,88 @@
+.header-inner{
+    height: 100vh;
+    background-color: white;
+    background-image: url(../img/header_bg.jpg);
+    background-size: cover;
+}
+
+.header__menu{
+    background-color: #ffdc4f;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu .logo{
+    max-height: 75%;
+    margin: 15px 0 15px 30px;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    /*width: 30%;*/
+    width: 600px;
+    color: #333333;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 50px 70px 0px 20px;
+}
+
+.header__nav .item{
+    text-decoration: none;
+    color: #333333;
+    border-bottom: 3px solid #ffdc4f;
+    max-height: 20px;
+    padding-bottom: 10px;
+}
+
+.header__nav .item:hover{
+    border-bottom: 3px solid #333333;
+    transition: 0.3s;
+}
+
+.header__content{
+    max-width: 610px;
+    margin: 25vh auto;
+    text-align: center;
+}
+
+.header__name{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 100px;
+    text-shadow: 5px 5px #333333;
+}
+
+.header__description{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px #333333;
+}
+
+@media (max-width: 625px) and (min-width: 470px){
+    .header__nav{
+        font-size: 15px;
+        margin-right: 20px;
+    }
+
+    .header__name{
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 469px){
+    .header__nav{
+        font-size: 10px;
+        margin-right: 20px;
+        height: 20px;
+    }
+
+    .header__name{
+        font-size: 50px;
+    }
+}
