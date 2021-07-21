@@ -1,0 +1,237 @@
+.header-inner{
+    height: 100vh;
+    background-color: white;
+    background-image: url(../img/header_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header__menu{
+    background-color: #ffdc4f;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu .logo{
+    max-height: 75%;
+    margin: 15px 0 15px 30px;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    /*width: 30%;*/
+    width: 600px;
+    color: #333333;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 50px 70px 0px 20px;
+}
+
+.header__nav .link{
+    text-decoration: none;
+    color: #333333;
+    border-bottom: 3px solid #ffdc4f;
+    max-height: 20px;
+    padding-bottom: 10px;
+}
+
+.header__nav .link:hover{
+    border-bottom: 3px solid #333333;
+    transition: 0.3s;
+}
+
+.header__content{
+    max-width: 610px;
+    margin: 25vh auto;
+    text-align: center;
+}
+
+.header__name{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 100px;
+    text-shadow: 5px 5px #333333;
+}
+
+.header__description{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px #333333;
+}
+
+.products{
+    background-color: #fffff0;
+    padding: 40px;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+
+.products__name{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+.products__card{
+    padding: 20px;
+    border: 2px solid #333333;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    line-height: 20px;
+    color: #333333;
+    margin: 20px;
+}
+
+.products__card .product-image{
+    max-width: 300px;
+    height: 300px;
+    border: 1px solid #333333;
+}
+
+
+.products__card .product-name{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.products__card .product-price{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.products__card .yellow_btn{
+    background-color: #ffdc4f;
+    max-width: 100px;
+    max-height: 40px;
+    padding: 5px 10px;
+    border: 1px solid #333333;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+
+.products__card .yellow_btn:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.products__card .yellow_btn .link{
+    text-decoration: none;
+    color: #333333;
+}
+
+.products__content{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.icons-container{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.icon-block{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.icon-block__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-block__icon{
+    background-color: #ffdc4f;
+    width: 70px;
+    height: 70px;
+    border-radius: 45px;
+    padding: 5px 5px 5px 5px;
+}
+
+
+.icon-block__text{
+    margin-top: 10px;
+}
+
+/*media*/
+@media (max-width: 625px) and (min-width: 470px){
+    .header__nav{
+        font-size: 15px;
+        margin-right: 20px;
+    }
+
+    .header__name{
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 469px) and (min-width: 371px){
+    .header__menu .logo{
+        max-height: 65%;
+        margin: 15px 0 15px 30px;
+    }
+
+
+    .header__nav{
+        font-size: 10px;
+        margin-right: 20px;
+        height: 20px;
+    }
+
+    .header__name{
+        font-size: 50px;
+    }
+
+    .products__card{
+        width: 250px;
+    }
+
+    .products__card .product-image{
+        max-width: 240px;
+        height: 200px;
+    }
+
+    .products{
+        padding: 20px;
+    }
+    
+}
+
+@media (max-width: 370px){
+    .header__menu .logo{
+        max-height: 50%;
+        margin: 15px 0 15px 30px;
+    }
+
+    .header__nav{
+        font-size: 7px;
+        margin-right: 17px;
+        height: 20px;
+    }
+
+    .header__name{
+        font-size: 50px;
+    }
+
+    .products__card{
+        width: 60vw;
+    }
+
+    .products__card .product-image{
+        max-width: 80%;
+        height: 180px;
+    }
+
+    .products{
+        padding: 20px;
+    }
+}
