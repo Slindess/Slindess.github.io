@@ -257,4 +257,9 @@ body{
         margin-right: 5vw;
         margin-top: 50px;
     }
+    
+    .taxes .web-hosting-container h2{
+        font-size: 30px;
+        font-weight: 700;
+    }
 }
