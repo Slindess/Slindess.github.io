@@ -1,0 +1,613 @@
+body{
+    margin: 0;
+    background-color: #121212;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+.header{
+    min-height: 100vh;
+    background-image: url(img/header-bg.png);
+    background-size: cover;
+}
+
+
+.header header{
+    background-color: #121212;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.header header img{
+    height: 75px;
+    background-color: #121212;
+}
+
+.header header .header-logo{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 36px;
+    margin-left: 30px;
+}
+
+.header header .header-logo img{
+    margin-right: 15px;
+}
+
+.header header .header-hrefs{
+    display: flex;
+    justify-content: space-between;
+    width: 31vw;
+    margin: 0 30px 0 30vw;
+}
+
+.header header .header-hrefs a{
+    text-decoration: none;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.header header .header-hrefs a:hover{
+    border-bottom: 3px solid #F96714;
+    box-sizing: content-box;
+}
+
+.header .content{
+    display: flex;
+    padding-left: 66px;
+}
+
+.header .content .text-wrapper{
+    margin: 85px 8vw 0 0;
+}
+
+.header .content .text{
+    max-width: 50vw;
+    color: #ffffff;
+    font-size: 36px;
+}
+
+.header .content button{
+    padding: 11px 25px;
+    color: #ffffff;
+    background-color: #F96714;
+    border: none;
+    font-size: 32px;
+    margin-top: 70px;
+}
+
+.header .content button a{
+    text-decoration: none;
+    color: white;
+}
+
+.header .content img{
+    max-height: 350px;
+    max-width: 360px;
+    margin-top: 45px;
+}
+
+
+.our-advantages{
+    text-align: center;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-advantages h2{
+    font-size: 32px;
+}
+
+.our-advantages .cards-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 85px;
+    width: 80vw;
+    max-width: 1000px;
+}
+
+.our-advantages .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-advantages .card img{
+    height: 180px;
+    max-width: 200px;
+    margin-bottom: 50px;
+}
+
+.our-advantages .card span{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.our-advantages .orange-line{
+    width: 43vw;
+    border-bottom: 2px solid #F96714;
+    margin: 70px 0;
+}
+
+.our-advantages .os-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 65vw;
+    max-width: 800px;
+    margin-top: 50px;
+}
+
+.our-advantages .os-wrapper img{
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.taxes{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.taxes h2{
+    font-size: 34px;
+    font-weight: 100;
+}
+
+.taxes h3{
+    font-size: 34px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.taxes-wrapper{
+    text-align: center;
+    padding: 50px;
+}
+
+.tax-card{
+    display: inline-block;
+    border: 3px solid #F96714;
+    border-radius: 10px;
+    color: #FFFFFF;
+    width: 430px;
+    padding: 18px 0 0 0;
+    margin: 0 70px 120px 70px;
+    text-align: start;
+}
+
+.tax-card .tax-name{
+    font-size: 34px;
+    margin-bottom: 20px;
+    padding: 0 24px;
+}
+
+.tax-card .tax-price{
+    font-size: 34px;
+    font-weight: 100;
+    width: 420px;
+    border: 3px solid #F96714;
+    border-radius: 10px;
+    background-color: #121212;
+    position: relative;
+    left: -50px;
+    padding: 17px 36px;
+    margin-bottom: 25px;
+}
+
+.tax-card .tax-options-wrapper{
+    padding: 0 24px;
+}
+
+.tax-card .tax-option{
+    margin-bottom: 25px;
+}
+
+.tax-card .tax-option *{
+    vertical-align: middle;
+}
+
+.tax-card .tax-option *{
+    vertical-align: middle;
+}
+
+.tax-card .tax-option img{
+    max-width: 35px;
+    max-height: 35px;
+}
+
+.tax-card .tax-option span{
+    font-size: 30px;
+    margin-left: 18px;
+}
+
+.tax-card .order{
+    border: 3px solid #F96714;
+    border-radius: 0px 0px 10px 10px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin-left: -3px;
+    padding: 19px 0;
+}
+
+.tax-card .order a{
+    border-bottom: 3px solid #F96714;
+    padding-bottom: 1px;
+    color: white;
+    text-decoration: none;
+}
+
+.order{
+    padding: 85px;
+}
+
+.order h2{
+    color: white;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.order input{
+    height: 80px;
+    max-width: 600px;
+    font-size: 36px;
+    margin-bottom: 25px;
+    border: 3px solid #FF5C00;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.order button{
+    background-color: #FF5C00;
+    width: 200px;
+    height: 100px;
+    font-size: 36px;
+    margin: 25px 0 15px 0;
+    border: none;
+}
+
+.order form{
+    display: flex;
+    flex-direction: column;
+}
+
+.bill-alert{
+    color: white;
+    font-size: 36px;
+    margin-left: 10px;
+}
+
+.bill-link{
+    font-size: 25px;
+    padding: 10px;
+    background-color: #FF5C00;
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.contacts{
+    padding: 85px;
+    color: white;
+}
+
+.contacts h2{
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.contacts h3{
+    font-size: 32px;
+}
+
+.contacts .question-wrapper{
+    border: 3px solid #FF5C00;
+    border-radius: 10px;
+    max-width: 50vw;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.contacts .question-wrapper .question{
+    font-size: 30px;
+    border-bottom: 2px solid #FF5C00;
+    padding-bottom: 10px;
+}
+
+.contacts .question-wrapper .answer{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.snowflake{
+    max-height: 10px;
+    position: absolute;
+}
+
+.white_wrapper{
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(255,255,255,0.7);
+    font-size: 18px;
+}
+
+.tg{
+    max-width: 50px;
+}
+
+
+@media (min-width: 1281px){
+    .header .content .text-wrapper{
+        margin: 200px 15vw 0 0;
+    }
+
+    .header .content img{
+        margin-top: 120px;
+    }
+}
+
+
+@media (max-width: 1280px){
+    .header header .header-hrefs{
+        display: flex;
+        justify-content: space-between;
+        width: 40vw;
+        margin: 0 30px 0 18vw;
+    }
+
+    .header header .header-hrefs a{
+        text-decoration: none;
+        font-size: 25px;
+        color: #ffffff;
+    }
+}
+
+@media (max-width: 1000px){
+    .header header{
+        background-color: #121212;
+        min-height: 100px;
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+    }
+
+    .header header *{
+        margin-bottom: 10px;
+    }
+
+    .header header .header-hrefs{
+        display: flex;
+        justify-content: space-between;
+        width: 40vw;
+        margin: 0;
+    }
+
+    .header header .header-hrefs *{
+        margin-left: 20px;
+    }
+
+    .header header .header-logo{
+        margin: 15px 0;
+    }
+
+    .header .content img{
+        max-height: 300px;
+        max-width: 300px;
+    }
+
+    .header .content .text{
+        font-size: 32px;
+    }
+
+    .header .content button{
+        font-size: 29px;
+    }
+
+    .our-advantages .card img{
+        height: 150px;
+        max-width: 170px;
+    }
+
+    .our-advantages .card span{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 860px){
+    .header .content{
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0 20px 0;
+    }
+
+    .header .content .text-wrapper{
+        margin: 85px 0 0 0;
+        text-align: center;
+    }
+
+    .header header .header-hrefs{
+        display: flex;
+        justify-content: center;
+        width: 40vw;
+        margin: 0;
+    }
+
+    .our-advantages{
+        padding-top: 50px;
+    }
+
+    .our-advantages .cards-wrapper{
+        width: 90vw;
+    }
+
+    .our-advantages .os-wrapper{
+        width: 85vw;
+    }
+
+    .white_wrapper{
+        background-color: #ffffff;
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 0 50px rgba(255,255,255,0.7);
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px){
+    .header .content img{
+        max-height: 250px;
+        max-width: 250px;
+    }
+
+    .header .content .text{
+        font-size: 29px;
+        box-sizing: border-box;
+        max-width: 90vw;
+    }
+
+    .header header .header-hrefs a{
+        font-size: 20px;
+    }
+
+    .header .content button a{
+        font-size: 24px;
+    }
+
+    .our-advantages .cards-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our-advantages .cards-wrapper .card{
+        margin-bottom: 40px;
+    }
+
+    .our-advantages .os-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our-advantages .os-wrapper img{
+        margin-bottom: 40px;
+    }
+
+    .taxes-wrapper{
+        padding: 5px;
+    }
+
+    .tax-card{
+        width: 290px;
+        margin: 0 0 120px 0;
+    }
+
+    .tax-card .tax-price{
+        width: 280px;
+    }
+
+    .tax-card .tax-option span{
+        font-size: 22px;
+    }
+
+    .order{
+        padding: 85px 20px;
+    }
+
+    .order h2{
+        font-size: 42px;
+    }
+
+    .order input{
+        font-size: 28px;
+    }
+
+    .order button{
+        width: 150px;
+        height: 80px;
+        font-size: 29px;
+    }
+
+    .contacts{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 400px){
+    .header header .header-hrefs a{
+        font-size: 17px;
+    }
+
+    .header .content button a{
+        font-size: 18px;
+    }
+
+    .header header img{
+        height: 60px;
+        background-color: #121212;
+    }
+    
+    .header header .header-logo{
+        font-size: 29px;
+    }
+
+    .taxes h3{
+        font-size: 28px;
+    }
+
+    .tax-card{
+        width: 85vw;
+        margin: 0 0 120px 0;
+    }
+
+    .tax-card .tax-price{
+        width: 86vw;
+        left: -2px;
+        box-sizing: border-box;
+    }
+
+    .tax-card .tax-option span{
+        font-size: 20px;
+    }
+
+    
+    .contacts h2{
+        font-size: 32px;
+        font-weight: 100;
+    }
+    
+    .contacts h3{
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 300px){
+    .taxes h3{
+        font-size: 25px;
+    }
+
+    .tax-card .tax-option span{
+        font-size: 16px;
+    }
+
+    .order h2{
+        font-size: 36px;
+    }
+
+    .order input{
+        font-size: 20px;
+    }
+
+    .contacts{
+        padding: 10px;
+    }
+
+    .contacts .question-wrapper{
+        width: 70vw;
+    }
+}
