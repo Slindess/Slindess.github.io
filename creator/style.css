@@ -18,6 +18,16 @@ main h1 {
     margin-top: 30px;
 }
 
+#twitter {
+    display: block;
+    margin: 20px auto;
+    max-width: 30%; /* Изменено на проценты */
+    height: auto; /* Убрано фиксированное значение */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
 h2 {
     color: #555;
     margin-top: 20px;
@@ -103,5 +113,8 @@ body {
     nav ul li {
         display: block; /* Меняем на блочное отображение */
         margin: 10px 0; /* Добавляем отступы сверху и снизу */
+    }
+    #twitter {
+        max-width: 100%; /* Изменено для мобильных устройств */
     }
 }
