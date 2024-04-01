@@ -1,0 +1,107 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; /* Убираем отступы вокруг всего содержимого body */
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+main {
+    padding: 20px;
+}
+
+main h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2 {
+    color: #555;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #777;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ol {
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Шапка */
+header {
+    padding: 20px;
+    background-color: #333; /* Черный фон */
+    color: #fff; /* Белый текст */
+    display: flex;
+    justify-content: space-between; /* Распределение элементов по краям */
+    align-items: center; /* Выравнивание по вертикали */
+    margin: 0; /* Убираем внешние отступы */
+}
+
+/* Название сайта */
+h1 {
+    color: #fff;
+    margin: 0; /* Убираем внутренние отступы */
+}
+
+/* Навигационное меню */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Центрируем ссылки */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Добавляем отступы между элементами меню */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Убираем отступ справа у последней ссылки */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Белый текст */
+}
+
+nav ul li a:hover {
+    color: #ccc; /* Изменяем цвет ссылки при наведении */
+}
+
+/* Убираем отступы у body */
+body {
+    margin: 0;
+}
+
+/* Медиа-запросы для адаптивного дизайна */
+
+/* При ширине экрана меньше 768px */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column; /* Размещаем элементы вертикально */
+        text-align: center; /* Центрируем текст */
+    }
+
+    nav ul {
+        margin-top: 10px; /* Добавляем отступ сверху */
+    }
+
+    nav ul li {
+        display: block; /* Меняем на блочное отображение */
+        margin: 10px 0; /* Добавляем отступы сверху и снизу */
+    }
+}
